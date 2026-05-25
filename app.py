@@ -262,7 +262,7 @@ def iniciar_app_principal():
         quiere_donar = mostrar_pregunta_custom("Support Project Development", mensaje_incentivo)
         
         if quiere_donar:
-            url_donacion = "https://www.google.com"
+            url_donacion = "https://rrydapp.netlify.app/#donation"
             try:
                 webbrowser.open(url_donacion)
             except Exception as e:
